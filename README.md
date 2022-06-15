@@ -7,7 +7,7 @@ Helping Louise compare her play "FEVER" with regards to how well she conducted h
 ## Analysis of Outcomes Based on Launch Date
 The outcome based on launch date provided me the below visual, I analyzed for Louise the successfull crowdfunding campaigns and grouped them according to the months.
 A graphical representation gives a breakdown of what campaings have been suuceesful Vs Failed Vs Cancelled over the months  for the theatre group category by their launch dates. 
-![](Outcome_vs_Goals.png)
+![](Theater_Outcomes_vs_Launch.png)
 
 The follwing steps where done to get to the above analysis
 * Create a pivot table 
@@ -19,6 +19,7 @@ The follwing steps where done to get to the above analysis
  *  First create a columns for the goal raanges
  *  Do a countifs based on the conditions mentioned to populate the following columns "Number Successful," "Number Failed," and "Number Canceled" based on the goal condition and then find their respective percentages
  *  Then created a line cart to visualiaze the data for the relationship between the goal amount ranges and the percentage of successful,cancelled and failed.
+ ![](Outcome_vs_Goals.png)
 ## Challenges and Difficulties Encountered 
 * Getting the unix time stamp converted to a date that is readable in excel.
 * Getting the formula for the "Outcome based on Goals", I made the mistake of not including both sides of the condidtions. Eg, the condition 1000 to 4999 I only included    <=4999 and not >=1000, which threw my numbers off. 
@@ -32,3 +33,5 @@ The follwing steps where done to get to the above analysis
 *  Different currencies are used there is no conversion step to make them all similar in value.
 *  No details on cost of production.
 ##  What are some other possible tables and/or graphs that we could create?
+### Outcome by Category
+![](Outcome_VS_Parent_Catgory.png)
