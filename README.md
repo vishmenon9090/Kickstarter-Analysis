@@ -7,7 +7,7 @@ Helping Louise compare her play "FEVER" with regards to how well she conducted h
 ## Analysis of Outcomes Based on Launch Date
 The outcome based on launch date provided me the below visual, I analyzed for Louise the successfull crowdfunding campaigns and grouped them according to the months.
 A graphical representation gives a breakdown of what campaings have been suuceesful Vs Failed Vs Cancelled over the months  for the theatre group category by their launch dates. 
-![Outcome_vs_Goals] ()
+![Outcome_vs_Goals] (path/to/Outcome_vs_Goals.png)
 
 The follwing steps where done to get to the above analysis
 * Create a pivot table 
